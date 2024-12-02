@@ -26,7 +26,8 @@ public class TestingWebPages {
 //        highlight(driver,driver.findElement(By.tagName("h1")));// tag name locator use only unique tag-names
 
         //Reading And Giving Input to Text Boxes
-        workingWithTextBoxes(driver,driver.findElement(By.id("login_field")));
+//        workingWithTextBoxes(driver,driver.findElement(By.id("login_field")));
+
 
 
     }
