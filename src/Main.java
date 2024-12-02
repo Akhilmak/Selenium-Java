@@ -1,4 +1,5 @@
 import files.HtmlControls;
+import files.NavigationMethods;
 import files.TestingWebPages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -11,7 +12,10 @@ public class Main {
 //        TestingWebPages testingWebPages = new TestingWebPages();
 //        testingWebPages.testPage("https://github.com/login"); // for github login page
 
-        HtmlControls controls = new HtmlControls();
-        controls.workingWithHtmlControls("https://www.hyrtutorials.com/p/basic-controls.html");
+//        HtmlControls controls = new HtmlControls();
+//        controls.workingWithHtmlControls("https://www.hyrtutorials.com/p/basic-controls.html");
+
+        NavigationMethods methods=new NavigationMethods();
+        methods.workingWithNavigations("https://www.google.com/");
     }
 }
