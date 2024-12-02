@@ -25,7 +25,7 @@ public class HtmlControls {
         radioButtons(driver,femaleGenderRadio);
         WebElement checkBox=driver.findElement(By.id("englishchbx"));
         radioButtons(driver,checkBox);
-        W
+
 
 
     }
