@@ -1,3 +1,4 @@
+import files.HandlingMultipleWindows;
 import files.HtmlControls;
 import files.NavigationMethods;
 import files.TestingWebPages;
@@ -15,7 +16,10 @@ public class Main {
 //        HtmlControls controls = new HtmlControls();
 //        controls.workingWithHtmlControls("https://www.hyrtutorials.com/p/basic-controls.html");
 
-        NavigationMethods methods=new NavigationMethods();
-        methods.workingWithNavigations("https://www.google.com/");
+//        NavigationMethods methods=new NavigationMethods();
+//        methods.workingWithNavigations("https://www.google.com/");
+
+        HandlingMultipleWindows hm = new HandlingMultipleWindows();
+        hm.windowsHandler("https://www.hyrtutorials.com/p/window-handles-practice.html");
     }
 }
